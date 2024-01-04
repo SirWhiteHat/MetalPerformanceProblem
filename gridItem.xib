@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="gridItem" customModule="MetalPerformanceProblem" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="RJm-zu-64R"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY" userLabel="gridItem">
+            <rect key="frame" x="0.0" y="0.0" width="109" height="27"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s9f-PN-hX8" customClass="TestView" customModule="MetalPerformanceProblem" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="109" height="27"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </customView>
+            </subviews>
+            <point key="canvasLocation" x="-210.5" y="65.5"/>
+        </customView>
+        <collectionViewItem id="jbQ-bG-1gW" userLabel="gridItem" customClass="gridItem" customModule="MetalPerformanceProblem" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="rPM-vH-5id"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>
